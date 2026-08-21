@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 600">
+  <defs>
+    <!-- Seamless Woven Basketweave Pattern -->
+    <pattern id="wovenTexture" width="80" height="80" patternUnits="userSpaceOnUse">
+      <!-- Warm Linen Background Tone -->
+      <rect width="80" height="80" fill="#E8DFD3"/>
+
+      <!-- Shadow Layer for Depth -->
+      <g fill="none" stroke="#A89A89" stroke-linecap="round" opacity="0.4">
+        <!-- Shadows under Horizontal Blocks -->
+        <line x1="2" y1="21" x2="38" y2="21" stroke-width="3"/>
+        <line x1="42" y1="61" x2="78" y2="61" stroke-width="3"/>
+        
+        <!-- Shadows beside Vertical Blocks -->
+        <line x1="61" y1="2" x2="61" y2="38" stroke-width="3"/>
+        <line x1="21" y1="42" x2="21" y2="78" stroke-width="3"/>
+      </g>
+
+      <!-- Main Yarns (Off-white / Cream) -->
+      <g fill="none" stroke="#F5EFE6" stroke-linecap="round" stroke-width="6">
+        <!-- TOP-LEFT: Horizontal Weave Block -->
+        <path d="M 4 6 Q 20 5 36 6 M 4 13 Q 20 12 36 13 M 4 20 Q 20 19 36 20 M 4 27 Q 20 26 36 27 M 4 34 Q 20 33 36 34" />
+        
+        <!-- TOP-RIGHT: Vertical Weave Block -->
+        <path d="M 46 4 Q 45 20 46 36 M 53 4 Q 52 20 53 36 M 60 4 Q 59 20 60 36 M 67 4 Q 66 20 67 36 M 74 4 Q 73 20 74 36" />
+        
+        <!-- BOTTOM-LEFT: Vertical Weave Block -->
+        <path d="M 6 44 Q 5 60 6 76 M 13 44 Q 12 60 13 76 M 20 44 Q 19 60 20 76 M 27 44 Q 26 60 27 76 M 34 44 Q 33 60 34 76" />
+        
+        <!-- BOTTOM-RIGHT: Horizontal Weave Block -->
+        <path d="M 44 46 Q 60 45 76 46 M 44 53 Q 60 52 76 53 M 44 60 Q 60 59 76 60 M 44 67 Q 60 66 76 67 M 44 74 Q 60 73 76 74" />
+      </g>
+
+      <!-- Highlights on Yarns (Pure White Accents) -->
+      <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="2" opacity="0.7">
+        <!-- Horizontal Highlights -->
+        <path d="M 6 5 L 34 5 M 6 12 L 34 12 M 6 19 L 34 19 M 6 26 L 34 26 M 6 33 L 34 33" />
+        <path d="M 46 45 L 74 45 M 46 52 L 74 52 M 46 59 L 74 59 M 46 66 L 74 66 M 46 73 L 74 73" />
+        
+        <!-- Vertical Highlights -->
+        <path d="M 45 6 L 45 34 M 52 6 L 52 34 M 59 6 L 59 34 M 66 6 L 66 34 M 73 6 L 73 34" />
+        <path d="M 5 46 L 5 74 M 12 46 L 12 74 M 19 46 L 19 74 M 26 46 L 26 74 M 33 46 L 33 74" />
+      </g>
+
+      <!-- Soft Thread Texture / Fibers Overlay -->
+      <g fill="none" stroke="#C3B5A3" stroke-linecap="round" stroke-width="1" opacity="0.5">
+        <!-- Fine cross-hatching details -->
+        <line x1="8" y1="8" x2="32" y2="10" />
+        <line x1="10" y1="22" x2="30" y2="21" />
+        <line x1="48" y1="10" x2="50" y2="30" />
+        <line x1="62" y1="12" x2="60" y2="32" />
+        <line x1="10" y1="50" x2="8" y2="70" />
+        <line x1="24" y1="48" x2="22" y2="72" />
+        <line x1="50" y1="50" x2="72" y2="52" />
+        <line x1="48" y1="64" x2="70" y2="63" />
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Fill canvas with pattern -->
+  <rect width="100%" height="100%" fill="url(#wovenTexture)" />
+</svg>
